@@ -1,0 +1,17 @@
+#role: asker | brainer | memory
+rabbitmq:
+  host: localhost # default: localhost
+  port: 5672 # default: 5672
+  credentials: # default: None
+    username: testuser
+    password: testpass
+mongodb:
+  host: localhost # default: localhost
+  port: 27017 # default: 27017
+  credentials: # default: None
+    username: testmongouser
+    password: testmongopass
+    authSource: admin # default: admin
+    authMechanism: SCRAM-SHA-256 # default: SCRAM-SHA-256
+  database: brainers_db # default: brainers_db
+  collection: questions # default: questions

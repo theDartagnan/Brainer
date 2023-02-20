@@ -1,0 +1,15 @@
+role: memory
+rabbitmq:
+  host: localhost
+  port: 5672
+  credentials:
+    username: testuser
+    password: testpass
+mongodb:
+  host: localhost
+  port: 27017
+  credentials:
+    username: testmongouser
+    password: testmongopass
+  database: brainers_db
+  collection: questions
